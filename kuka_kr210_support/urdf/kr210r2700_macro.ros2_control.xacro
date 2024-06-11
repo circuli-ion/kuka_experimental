@@ -17,7 +17,7 @@
         <param name="position_state_following_offset">0.0</param>
       </hardware>
 
-      <joint name="${prefix}joint_a1">
+      <joint name="${prefix}joint_1">
         <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
           <param name="min">-1</param>
           <param name="max">1</param>
@@ -26,7 +26,7 @@
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
-      <joint name="${prefix}joint_a2">
+      <joint name="${prefix}joint_2">
         <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
           <param name="min">-1</param>
           <param name="max">1</param>
@@ -35,7 +35,7 @@
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
-      <joint name="${prefix}joint_a3">
+      <joint name="${prefix}joint_3">
         <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
           <param name="min">-1</param>
           <param name="max">1</param>
@@ -44,7 +44,7 @@
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
-      <joint name="${prefix}joint_a4">
+      <joint name="${prefix}joint_4">
         <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
           <param name="min">-1</param>
           <param name="max">1</param>
@@ -53,7 +53,7 @@
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
-      <joint name="${prefix}joint_a5">
+      <joint name="${prefix}joint_5">
         <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
           <param name="min">-1</param>
           <param name="max">1</param>
@@ -62,7 +62,7 @@
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
-      <joint name="${prefix}joint_a6">
+      <joint name="${prefix}joint_6">
         <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
           <param name="min">-1</param>
           <param name="max">1</param>
