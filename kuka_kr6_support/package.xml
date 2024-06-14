@@ -53,7 +53,7 @@
   <exec_depend>kuka_kr10_support</exec_depend>
   <exec_depend>kuka_resources</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>rviz</exec_depend>
+  <exec_depend>rviz2</exec_depend>
   <exec_depend>xacro</exec_depend>
 
   <export>
