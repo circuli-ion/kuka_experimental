@@ -143,7 +143,7 @@
         <inertia ixx="0.031746" ixy="1.7673E-07" ixz="-6.6558E-06" iyy="0.016686" iyz="1.4304E-07" izz="0.016723"/>
       </inertial>
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0" rpy="0 0 -1.92"/>
         <geometry>
           <mesh filename="file://$(find kuka_kr210_support)/meshes/kr210r2700/visual/link_6.stl"/>
         </geometry>
@@ -152,7 +152,7 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0" rpy="0 0 -0.785398"/>
         <geometry>
           <mesh filename="file://$(find kuka_kr210_support)/meshes/kr210r2700/collision/link_6.stl"/>
         </geometry>
